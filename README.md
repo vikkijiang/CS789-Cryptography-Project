@@ -1,7 +1,7 @@
 # CS789-Cryptography-Project
-functions_new.py: All the cryptographic functions taught in class to be used for this project <br />
-rsa_algamal.py: Simple UI implementing the RSA and Diffie-Hellman algorithm with with functions from functions_new.py <br />
-test.py: Unit test file
+[functions_new.py](https://github.com/vikkijiang/CS789-Cryptography-Project/blob/main/functions_new.py): All the cryptographic functions taught in class to be used for this project <br />
+[rsa_algamal.py](https://github.com/vikkijiang/CS789-Cryptography-Project/blob/main/rsa_elgamal.py): Simple UI implementing the RSA and Diffie-Hellman algorithm with with functions from functions_new.py <br />
+[test.py](https://github.com/vikkijiang/CS789-Cryptography-Project/blob/main/test.py): Unit test file
 
 ## rsa_algamal.py User Guide
 - The user will be prompted to choose between the RSA or Diffie_Hellman algorithm and their role
