@@ -40,6 +40,12 @@ def test_primitive_root(b,p):
 def test_babygiant(a,b,p,e):
     assert babygiant(a,b,p) == e
 
+def test_blum_blum_shub():
+    count = 0
+    while count < 10:
+        assert len(bin(blum_blum_shub(30))[2:]) <= 30
+        count += 1
+
 def test_miller_rabin():
 
     assert not miller_rabin(15)
